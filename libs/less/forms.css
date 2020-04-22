@@ -1,0 +1,39 @@
+section.main-routing {
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 778px) {
+  section.main-routing {
+    flex-direction: column;
+  }
+}
+section.main-routing > div {
+  flex-grow: 1;
+  margin: 5px;
+  min-height: 200px;
+  position: relative;
+  background-size: cover;
+}
+section.main-routing > div a {
+  position: absolute;
+  width: 96%;
+  background-color: #3ec56b;
+  opacity: 0.9;
+  left: 0;
+  bottom: 0;
+  padding: 10px 5px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section.main-routing > div:nth-child(1) {
+  background-image: url("../images/form1-bg.jpg");
+}
+section.main-routing > div:nth-child(2) {
+  background-image: url("../images/form2-bg.png");
+}
+section.main-routing > div:nth-child(3) {
+  background-image: url("../images/form3-bg.jpg");
+}

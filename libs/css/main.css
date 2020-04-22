@@ -1,0 +1,25 @@
+@import "../less/forms.css";
+@import "../less/form1.css";
+@import "../less/form2.css";
+@import "../less/form3.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #ededed;
+}
+ul, li, a, p{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+input, label{
+    display: block;
+}

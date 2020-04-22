@@ -1,0 +1,172 @@
+.main {
+  width: 50%;
+  margin: 50px auto;
+  background-color: white;
+}
+@media all and (max-width: 920px) {
+  .main {
+    width: 70%;
+  }
+}
+@media all and (max-width: 576px) {
+  .main {
+    width: 80%;
+  }
+}
+@media all and (max-width: 415px) {
+  .main {
+    width: 90%;
+  }
+}
+.form2 {
+  width: 50%;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+}
+@media all and (max-width: 920px) {
+  .form2 {
+    width: 70%;
+  }
+}
+@media all and (max-width: 576px) {
+  .form2 {
+    width: 80%;
+  }
+}
+@media all and (max-width: 415px) {
+  .form2 {
+    width: 90%;
+  }
+}
+.form2 .heading {
+  background-image: url("../images/form2-bg.png");
+  width: 100%;
+  min-height: 200px;
+  color: white;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+}
+.form2 .heading:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(54, 84, 99, 0.7);
+  border-radius: 20px 20px 0 0;
+}
+.form2 .heading h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.form2 .form-content {
+  width: 70%;
+  margin: 30px 9% 30px auto;
+  padding-bottom: 50px;
+}
+@media all and (max-width: 920px) {
+  .form2 .form-content {
+    margin: 30px auto;
+    width: 80%;
+  }
+}
+.form2 .form-content form {
+  position: relative;
+}
+@media all and (max-width: 415px) {
+  .form2 .form-content form {
+    width: 90%;
+  }
+}
+.form2 .form-content form > div {
+  margin-bottom: 20px;
+}
+.form2 .form-content form input,
+.form2 .form-content form label {
+  display: inline-block;
+}
+@media all and (max-width: 920px) {
+  .form2 .form-content form input,
+  .form2 .form-content form label {
+    display: block;
+    position: unset;
+  }
+}
+.form2 .form-content form label {
+  font-size: 15px;
+  color: gray;
+  position: absolute;
+  left: -85px;
+  line-height: 45px;
+}
+@media all and (max-width: 920px) {
+  .form2 .form-content form label {
+    display: block;
+    position: unset;
+  }
+}
+.form2 .form-content form input {
+  width: 100%;
+  font-size: 15px;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+  height: 30px;
+}
+@media all and (max-width: 920px) {
+  .form2 .form-content form input {
+    display: block;
+    position: unset;
+  }
+}
+.form2 .form-content form input:focus {
+  outline: none;
+  border-bottom: 1px solid green;
+}
+.form2 .check {
+  position: relative;
+  font-size: 13px;
+  padding: 10px 0;
+}
+.form2 .check a,
+.form2 .check input,
+.form2 .check span {
+  display: inline-block;
+  color: gray;
+}
+.form2 .check input {
+  float: left;
+  margin-right: 10px;
+}
+.form2 .check a {
+  float: right;
+}
+@media all and (max-width: 576px) {
+  .form2 .check a {
+    float: none;
+    display: block;
+    margin-top: 10px;
+  }
+}
+.form2 .login {
+  margin: 30px 0;
+}
+.form2 .login input[type="submit"] {
+  width: 40%;
+  background-color: #57b846;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  padding: 15px 0;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
